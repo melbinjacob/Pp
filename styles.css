@@ -189,3 +189,66 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+
+@media screen and (max-width: 430px) {
+    :root{
+        --bg: #1a1a1a;
+    }
+    header{
+        width: 100%;
+        position: absolute;
+    }
+    
+    .logo-div{
+        width: auto;
+    }
+    header > ul{
+        width: 70%;
+        background-color: transparent;
+    }
+    .main-box{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        background-image: url(images/jpg/jasla1.png);
+        background-size: 400%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .box1{
+        margin-top: 2cm;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        font-size: 78px;
+    }
+    .box2{
+        background-image: none;
+    }
+    .box3p{
+        display: none;
+    }
+    .parts1-div{
+        flex-direction: column;
+        margin: 0;
+
+    }
+    .parts{
+        width: 100%;
+        height: auto;
+    }
+    .box-size{
+        width: 100%;
+    }
+    .par > p{
+        font-size: 14px;
+        width: 90%;
+    }
+    .parts-h2{
+        font-size: 24px;
+    }
+    
+  }
