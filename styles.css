@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --fg:rgb(199, 199, 199);
+    --bg:#17364f;
+    background-color: var(--bg);
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    color: var(--fg);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--bg);
+}
+
+.logo-div{
+    width: 50%; 
+    height: 100%;
+}
+
+.logo{
+    height: 80%;
+    width: auto;
+    margin-left: 1cm;
+    margin-top: 0.25cm;
+}
+
+header > ul{
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--bg);
+}
+
+header > ul > li{
+    margin-left: 1cm;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: auto;
+}
+
+
+
+.main-box{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.box{
+    width: 25%;
+    height: 100%;
+    background-color: var(--bg);
+    color: var(--fg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 220px;
+}
+
+.box2{
+    background-image: url(Images/jpg/jasla1.png);
+    background-size: 400%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box2-inner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 400ms ease;
+}
+
+.box2-inner:hover{
+    background-color: #17364fbf;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3p{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: absolute;
+    width: 15%;
+    bottom: 4cm;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.parts{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.parts1-div{
+    height: 100%;
+    width: 100%;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    display: flex;
+}
+
+.box-size{
+    width: 50%;
+    height: 100%;
+}
+
+.right-part{
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg);
+    color: var(--fg);
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.parts-h2{
+    font-size: 36px;
+    color: var(--fg);
+    margin:1cm;
+}
+
+.left-div2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--fg);
+}
+
+
+.parts-img{
+    margin-top: 1cm;
+    width: 100%;
+    height: auto;
+}
+
+.right-part3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.par > p{
+    width: 70%;
+    font-size: 24px;
+    text-align: left;
+    text-indent: 30px;
+    color: var(--fg);
+}
+
+.left-part3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
