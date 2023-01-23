@@ -10,14 +10,14 @@
 
 }
 header{
+    z-index: 2;
     width: 100%;
     height: 80px;
-    background-color: transparent;
-    color: var(--fg);
     display: flex;
-    align-items: center;
     position: fixed;
-    z-index: 2;
+    color: var(--fg);
+    align-items: center;
+    background-color: transparent;
 }
 
 .logo-div{
@@ -115,22 +115,18 @@ a{
 .parts{
     width: 100%;
     height: 100vh;
-    background-color: var(--bg);
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
+    flex-direction: column;
+    background-color: var(--bg);
 }
 
-
-
-
-
 .parts1-div{
-    height: 100%;
     width: 100%;
+    height: 100%;
+    display: flex;
     margin-top: 1cm;
     margin-bottom: 1cm;
-    display: flex;
 }
 
 .box-size{
@@ -141,26 +137,26 @@ a{
 .right-part{
 
     display: flex;
-    flex-direction: column;
-    background-color: var(--bg);
     color: var(--fg);
     align-items: center;
+    flex-direction: column;
+    background-color: var(--bg);
     justify-content: flex-start;
 
 }
 
 .parts-h2{
+    margin:1cm;
     font-size: 36px;
     color: var(--fg);
-    margin:1cm;
 }
 
 .left-div2{
     display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: var(--fg);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -173,16 +169,17 @@ a{
 .right-part3{
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+
 }
 
 .par > p{
     width: 70%;
     font-size: 24px;
+    color: var(--fg);
     text-align: left;
     text-indent: 30px;
-    color: var(--fg);
 }
 
 .left-part3{
